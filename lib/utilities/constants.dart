@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 const kTempTextStyle = TextStyle(
   fontFamily: 'Spartan MB',
-  fontSize: 100.0,
+  fontSize: 90.0,
 );
 
 const kMessageTextStyle = TextStyle(
@@ -24,6 +24,7 @@ const kTextFieldInputDecoration = InputDecoration(
   fillColor: Colors.white,
   icon: Icon(
     Icons.location_city,
+    size: 50.0,
     color: Colors.white,
   ),
   hintText: 'Enter City Name',
